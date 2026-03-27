@@ -20,15 +20,13 @@ get height() {
 class Square extends Animal,Square {
 
 	constructor(side)
-	{super(side)
+	{super(side,side);
 	 
 		this.side=side;
 	}
 	getPerimeter(){
 		return 4*side;
 	}
-	width=this.side;
-	height=this.side;
 	getArea(){
 		return side*side;
 	}
