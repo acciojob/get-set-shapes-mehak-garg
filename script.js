@@ -17,7 +17,7 @@ get height() {
 	}
 }
 
-class Square extends Animal,Rectangle {
+class Square extends Rectangle {
 
 	constructor(side)
 	{super(side,side);
